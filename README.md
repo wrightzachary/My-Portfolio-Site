@@ -4,7 +4,8 @@
   <a href="https://github.com/wrightzachary/My-Portfolio-Site">
   </a>
 
-  <h3 align="center">Zachary Wright's Portfolio</h3>
+  <h1 align="center">Zachary Wright's Portfolio</h1>
+  <h2 align="center">zacharythedeveloper.com</h2>
 
   <p align="center">
     My personal portfolio!
