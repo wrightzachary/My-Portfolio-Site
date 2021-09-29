@@ -1,11 +1,11 @@
-
-<br />
 <p id="top" align="center">
   <a href="https://github.com/wrightzachary/My-Portfolio-Site">
   </a>
 
   <h1 align="center">Zachary Wright's Portfolio</h1>
-  <h2 align="center">zacharythedeveloper.com</h2>
+  <h2 align="center">
+  <a href="zacharythedeveloper.com">zacharythedeveloper</a>
+  </h2>
 
   <p align="center">
     My personal portfolio!
