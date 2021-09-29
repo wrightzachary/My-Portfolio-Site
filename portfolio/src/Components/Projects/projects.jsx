@@ -2,8 +2,10 @@ import React from 'react';
 import { Col, Container, Row, Card } from "react-bootstrap";
 import igy6 from '../Images/igy6.png';
 import ecommerce from '../Images/ecommerce.png';
-import youtube from '../Images/youtube.PNG';
 import './projects.css';
+import {FiGithub} from 'react-icons/fi';
+import GitHub from '../Images/GitHub.PNG';
+
 
 const Projects = () => {
     return ( 
@@ -21,7 +23,7 @@ const Projects = () => {
                         >
                         <Card.Body>
                             <div className="projectHeader">
-                                <Card.Text><h1>;IGY6</h1></Card.Text>
+                                <Card.Text><h1>;IGY6</h1><a href="https://github.com/wrightzachary/Capstone-Frontend"><FiGithub size={32} /></a></Card.Text>
                             </div>
                             <hr></hr>
                             <Card.Text>
@@ -46,7 +48,7 @@ const Projects = () => {
                         >
                         <Card.Body>
                             <div className="projectHeader">
-                                <Card.Text><h1>eCommerce</h1></Card.Text>
+                                <Card.Text><h1>eCommerce</h1><a href="https://github.com/wrightzachary/Ecommerce-Front-End"><FiGithub size={32} /></a></Card.Text>
                             </div>
                             <hr></hr>
                             <Card.Text>
@@ -71,20 +73,22 @@ const Projects = () => {
                         >
                         <Card.Body>
                             <div className="projectHeader">
-                                <Card.Text><h1>YouTube</h1></Card.Text>
+                                <Card.Text><h1>More Projects</h1><a href="https://github.com/wrightzachary"><FiGithub size={32} /></a></Card.Text>
                             </div>
                             <hr></hr>
                             <Card.Text>
                             <div className="project">
                             <p>
-                               This project was group collaboration at devCodeCamp. This application is a YouTube Clone allowing users to search for videos and see the top related video. Upon search the top video under that search criteria will play This application was built using React.js and Django.
-                               Future implementation will allow users to comment on videos. 
+                               I have more projects on my GitHub. Some are console applications while some are full stack applications. Please view my GitHub to see what I have completed. I am constantly working on new projects and maintenance of older
+                               projects. Please let me know what you think!
                             </p>
                             </div>
                             </Card.Text>
                         </Card.Body>
-                        <img src={youtube} alt="YouTube Project" />
+                        <img src={GitHub} alt="GitHub Overview" />
+                        
                     </Card>
+                    
                 </Row>
             </Container>
                 </Col>
