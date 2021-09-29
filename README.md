@@ -5,7 +5,6 @@
   </a>
 
   <h3 align="center">Zachary Wright's Portfolio</h3>
-  <h3 align="center">zacharythedeveloper.com</h3>
 
   <p align="center">
     My personal portfolio!
