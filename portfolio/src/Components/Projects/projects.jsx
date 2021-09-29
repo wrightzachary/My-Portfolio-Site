@@ -29,7 +29,8 @@ const Projects = () => {
                             <Card.Text>
                             <div className="project">
                             <p>
-                               ;IGY6 is my personal capstone comepleted in a 10 day code sprint at devCodeCamp. This application brings awareness to veteran suicide, allows users to find a VA Hospital, connect on a blog, and shows an interactive graph that displays veteran suicides rates by year. 
+                               ;IGY6 is my personal capstone comepleted in a 10 day code sprint at devCodeCamp. This application brings awareness to veteran suicide, allows users to find a VA Hospital,
+                                connect on a blog, and shows an interactive graph that displays veteran suicide rates by year. 
                             </p>
                             </div>
                             </Card.Text>
