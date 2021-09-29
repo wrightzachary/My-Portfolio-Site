@@ -7,7 +7,7 @@ const Home = () => {
     return ( 
         <React.Fragment>
             <div id="home" className="home">
-                <h1>I am a Software<Typed 
+                <h1>I am a Software <Typed 
                     strings={[' Developer',
                     ' Engineer',]}
                     typeSpeed={60}  

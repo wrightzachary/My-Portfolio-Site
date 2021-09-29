@@ -21,17 +21,17 @@ const AboutMe = () => {
                         >
                         <Card.Body>
                             <div id="aboutMe" className="aboutHeader">
-                                <Card.Text><h1>About Me</h1></Card.Text>
+                                <Card.Text><h2>About Me</h2></Card.Text>
                             </div>
                             <hr></hr>
                             <Card.Text>
                             <div className="about">
                             <p>
-                                Hi, everyone I'm Zach! I am a veteran and served six years active duty
+                                Hi, everyone I'm Zach! I am a veteran who served six years active duty
                                 with the United States Army. I live in Central Texas about an hour north of Austin, TX. I have been married
                                 to my wife for four years. We have no kids but we have three amazing dogs. I started on the journey to become 
-                                a developer about two years ago. I was self taught for some, but my knowledge has come from coding bootcamp devCodeCamp.
-                                devCodeCamp has taught me how to think like a developer and put problem solving to the test through projects and classwork. 
+                                a developer about two years ago. I was self taught for some, but vast of my knowledge has come from coding bootcamp devCodeCamp.
+                                devCodeCamp has taught me how to think like a developer and put problem solving to the test through both solo and group projects. 
                                 Technologies I have experience with include C#, Javascript, Python, React.js, Django REST Framework, HTML, CSS, Bootstrap, APIs, GitBash, and MySQL.
                             </p>
                             </div>

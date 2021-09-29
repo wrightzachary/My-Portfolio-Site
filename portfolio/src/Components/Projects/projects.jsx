@@ -23,7 +23,7 @@ const Projects = () => {
                         >
                         <Card.Body>
                             <div className="projectHeader">
-                                <Card.Text><h1>;IGY6</h1><a href="https://github.com/wrightzachary/Capstone-Frontend"><FiGithub size={32} /></a></Card.Text>
+                                <Card.Text><h2>;IGY6</h2><a href="https://github.com/wrightzachary/Capstone-Frontend"><FiGithub size={32} /></a></Card.Text>
                             </div>
                             <hr></hr>
                             <Card.Text>
@@ -49,7 +49,7 @@ const Projects = () => {
                         >
                         <Card.Body>
                             <div className="projectHeader">
-                                <Card.Text><h1>eCommerce</h1><a href="https://github.com/wrightzachary/Ecommerce-Front-End"><FiGithub size={32} /></a></Card.Text>
+                                <Card.Text><h2>eCommerce</h2><a href="https://github.com/wrightzachary/Ecommerce-Front-End"><FiGithub size={32} /></a></Card.Text>
                             </div>
                             <hr></hr>
                             <Card.Text>
@@ -74,7 +74,7 @@ const Projects = () => {
                         >
                         <Card.Body>
                             <div className="projectHeader">
-                                <Card.Text><h1>More Projects</h1><a href="https://github.com/wrightzachary"><FiGithub size={32} /></a></Card.Text>
+                                <Card.Text><h2>More Projects</h2><a href="https://github.com/wrightzachary"><FiGithub size={32} /></a></Card.Text>
                             </div>
                             <hr></hr>
                             <Card.Text>

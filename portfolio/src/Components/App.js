@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from './AboutMe/aboutMe.jsx';
 import './App.css';
+import Contact from './ContactMe/contact.jsx';
 import Home from './Home/home';
 import Navigation from './Navigation/navbar.jsx';
 import Projects from './Projects/projects'
@@ -13,6 +14,7 @@ function App() {
         <Home />
         <AboutMe />
         <Projects />
+        <Contact />
       </div>
     </React.Fragment>
   );
