@@ -1,4 +1,5 @@
 import React from 'react';
+import './navbar.css';
 import { Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
 import {HiOutlinePhone, HiOutlineMail} from 'react-icons/hi';
 import {FiLinkedin, FiGithub} from 'react-icons/fi';
@@ -9,7 +10,7 @@ const Navigation = () => {
         <React.Fragment>
            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                <Container>
-            <Navbar.Brand href="#home">Zachary Wright</Navbar.Brand>
+            <Navbar.Brand>Zachary Wright</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav>

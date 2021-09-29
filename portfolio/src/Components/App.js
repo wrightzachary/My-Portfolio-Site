@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from './AboutMe/aboutMe.jsx';
 import './App.css';
+import Footer from './Footer/footer.jsx';
 import Home from './Home/home';
 import Navigation from './Navigation/navbar.jsx';
 import Projects from './Projects/projects'
@@ -8,10 +9,13 @@ import Projects from './Projects/projects'
 function App() {
   return (
     <React.Fragment>
-      <Navigation />
-      <Home />
-      <AboutMe />
-      <Projects />
+      <div className="portfolio">
+        <Navigation />
+        <Home />
+        <AboutMe />
+        <Projects />
+        <Footer />
+      </div>
     </React.Fragment>
   );
 }
