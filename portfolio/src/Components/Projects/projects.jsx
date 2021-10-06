@@ -35,7 +35,7 @@ const Projects = () => {
                             </div>
                             </Card.Text>
                         </Card.Body>
-                        <img src={igy6} alt="IGY6 Project" />
+                        <img src={igy6} alt="IGY6 Project" width="90%" />
                     </Card>
                 </Row>
             </Container>
@@ -55,12 +55,13 @@ const Projects = () => {
                             <Card.Text>
                             <div className="project">
                             <p>
-                               This project was my group capstone at devCodeCamp. This application brings Star Wars product shopping to a whole new level. This application allows users to purchase products through Stripe, post products to sell, and post and review comments for products. 
+                               This project was my group capstone at devCodeCamp where we made a Star Wars themed eCommerce application.
+                               This application allows users to purchase products through Stripe, post products to sell, and post and review comments for products. 
                             </p>
                             </div>
                             </Card.Text>
                         </Card.Body>
-                        <img src={ecommerce} alt="eCommerce Project" />
+                        <img src={ecommerce} alt="eCommerce Project" width="90%"  />
                     </Card>
                 </Row>
             </Container>
@@ -86,7 +87,7 @@ const Projects = () => {
                             </div>
                             </Card.Text>
                         </Card.Body>
-                        <img src={GitHub} alt="GitHub Overview" />
+                        <img src={GitHub} alt="GitHub Overview" width="90%"  />
                         
                     </Card>
                     

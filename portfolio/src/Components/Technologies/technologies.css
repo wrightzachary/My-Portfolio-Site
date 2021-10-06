@@ -1,0 +1,12 @@
+.technology {
+    text-align: left;
+}
+.technologyHeader {
+    text-align: center;
+}
+.technologyCard {
+    margin-top: 3%;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+}

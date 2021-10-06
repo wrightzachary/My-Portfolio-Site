@@ -32,12 +32,11 @@ const AboutMe = () => {
                                 to my wife for four years. We have no kids but we have three amazing dogs. I started on the journey to become 
                                 a developer about two years ago. I was self taught for some, but vast of my knowledge has come from coding bootcamp devCodeCamp.
                                 devCodeCamp has taught me how to think like a developer and put problem solving to the test through both solo and group projects. 
-                                Technologies I have experience with include C#, Javascript, Python, React.js, Django REST Framework, HTML, CSS, Bootstrap, APIs, GitBash, and MySQL.
                             </p>
                             </div>
                             </Card.Text>
                         </Card.Body>
-                        <img src={photoofme} alt="Me, Myself, and I" />
+                        <img src={photoofme} alt="Me, Myself, and I" width="90%" />
                     </Card>
                 </Row>
                 <Col sm={4}></Col>
