@@ -7,7 +7,8 @@ import {FiLinkedin, FiGithub} from 'react-icons/fi';
 const Navigation = () => {
     return ( 
         <React.Fragment>
-           <Navbar  expand="lg">
+            <Container>
+            <Navbar expand="lg">
             <Navbar.Brand ><h3>Zachary Wright</h3></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -19,6 +20,7 @@ const Navigation = () => {
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
+            </Container>
         </React.Fragment>
      );
 }

@@ -13,7 +13,7 @@ const Home = () => {
                     typeSpeed={60}  
                     loop
                 /></h1>
-                <img src={bitmoji1} alt="Bitmoji" />
+                <img src={bitmoji1} alt="Bitmoji" width="25%" />
             </div>
         </React.Fragment>
      );

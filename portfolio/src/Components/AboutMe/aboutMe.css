@@ -6,4 +6,6 @@
 }
 .aboutCard {
     margin-top: 3%;
+    font-family: monospace;
+    font-weight: bold;
 }
