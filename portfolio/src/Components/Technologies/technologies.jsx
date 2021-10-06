@@ -8,7 +8,7 @@ const Technologies = () => {
     return ( 
         <React.Fragment>
             <div className='technologyCard'>
-                <h1>Technologies </h1>
+                <h1>Technologies</h1>
             <Container>
             <Row>
                 <Col sm={4}>
@@ -20,7 +20,7 @@ const Technologies = () => {
                         >
                         <Card.Body>
                             <div className="technologyHeader">
-                                <Card.Text><h2>Front End </h2></Card.Text>
+                                <Card.Text><h2>Front End Development</h2></Card.Text>
                             </div>
                             <hr></hr>
                             <Card.Text>
@@ -49,7 +49,7 @@ const Technologies = () => {
                 >
                 <Card.Body>
                     <div className="technologyHeader">
-                        <Card.Text><h2>Back End</h2></Card.Text>
+                        <Card.Text><h2>Back End Development</h2></Card.Text>
                     </div>
                     <hr></hr>
                     <Card.Text>
@@ -77,7 +77,7 @@ const Technologies = () => {
                     >
                     <Card.Body>
                         <div className="technologyHeader">
-                            <Card.Text><h2>Source Control</h2></Card.Text>
+                            <Card.Text><h2>Source Control & Tech</h2></Card.Text>
                         </div>
                         <hr></hr>
                         <Card.Text>
