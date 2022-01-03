@@ -7,12 +7,12 @@ const Home = () => {
     return ( 
         <React.Fragment>
             <div id="home" className="home">
-                <h1>I am a Software <Typed 
+                {/* <h1>I am a Software <Typed 
                     strings={[' Developer',
                     ' Engineer',]}
                     typeSpeed={60}  
                     loop
-                /></h1>
+                /></h1> */}
                 <img src={bitmoji1} alt="Bitmoji" width="25%" />
             </div>
         </React.Fragment>
