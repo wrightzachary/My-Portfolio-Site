@@ -1,6 +1,29 @@
 .contact {
     text-align: left;
-    color: white;
+    color: #BD871F;
     font-family: monospace;
     font-weight: bold;
+}
+
+
+.contactContainer {
+    padding-bottom: 15%;
+    margin-top: 5%;
+}
+
+.name, .email {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+}
+
+.message {
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.button {
+    width: 100%;
 }
