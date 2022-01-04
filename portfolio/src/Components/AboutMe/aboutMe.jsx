@@ -6,40 +6,35 @@ import photoofme from '../Images/photoofme.jpg';
 const AboutMe = () => {
     return ( 
         <React.Fragment>
-            <div className='aboutCard'>
+            <div className='aboutMe'>
             <Container>
             <Row>
-                <Col sm={8}></Col>
-                <Col sm={4}></Col>
-            </Row>
-            </Container>
-            <Container fluid>
-                <Row className="d-flex justify-content-center">
-                        <Card
-                        className="card-container border border-primary "
-                        style={{ width: "40rem", margin: "1rem" }}
-                        >
-                        <Card.Body>
-                            <div id="aboutMe" className="aboutHeader">
-                                <Card.Text><h2>About Me</h2></Card.Text>
-                            </div>
-                            <hr></hr>
-                            <Card.Text>
+                {/* <Col sm={1}></Col> */}
+                <Col sm={6}>
+                    <h1>.01 About Me</h1>
+                    <hr></hr>
                             <div className="about">
                             <p>
-                                Hi, everyone I'm Zach! I am a veteran who served six years active duty
-                                with the United States Army. I live in Central Texas about an hour north of Austin, TX. I have been married
-                                to my wife for four years. We have no kids but we have three amazing dogs. I started on the journey to become 
-                                a developer about two years ago. I was self taught for some, but vast of my knowledge has come from coding bootcamp devCodeCamp.
-                                devCodeCamp has taught me how to think like a developer and put problem solving to the test through both solo and group projects. 
+                                Hi, everyone I'm Zach! I am an Army Veteran who served six years active duty, and
+                                I live in Central Texas where I started my journey to become a developer during
+                                my trasition out of the Army. I wanted to give myself an edge when it came to looking 
+                                for a job so I decidied to attend devCodeCamp, a coding boot camp.
+                                <br></br>
+                                <br></br>
+
+                                After devCodeCamp I decided to continue my B.S. in Computer Science, which I am set to 
+                                graduate next year! Follow me on my journey of getting my first developer job through GitHub
+                                and LinkedIn, both profiles can be found in the navigation bar up top.
                             </p>
                             </div>
-                            </Card.Text>
-                        </Card.Body>
-                        <img src={photoofme} alt="Me, Myself, and I" width="90%" />
-                    </Card>
-                </Row>
-                <Col sm={4}></Col>
+                </Col>
+                <Col sm={1}></Col>
+                <Col sm={5}>
+                    <div className="photoOfMe">
+                        <img className='photoOfMe' src={photoofme} alt="Me, Myself, and I" width="90%"  />
+                    </div>
+                </Col>
+            </Row>
             </Container>
             </div>
         </React.Fragment>

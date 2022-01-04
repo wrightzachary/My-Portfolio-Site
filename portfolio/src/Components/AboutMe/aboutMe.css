@@ -1,11 +1,15 @@
 .about {
     text-align: left;
+    font-size: 25px;
 }
-.aboutHeader {
-    text-align: center;
-}
-.aboutCard {
+
+.aboutMe {
     margin-top: 3%;
     font-family: monospace;
     font-weight: bold;
+    color: white;
+}
+
+.photoOfMe {
+    border-radius: 15%;
 }

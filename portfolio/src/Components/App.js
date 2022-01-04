@@ -12,7 +12,7 @@ function App() {
     <React.Fragment>
       <div className="portfolio">
         <Navigation />
-        <Home />
+        {/* <Home /> */}
         <AboutMe />
         <Technologies />
         <Projects />
