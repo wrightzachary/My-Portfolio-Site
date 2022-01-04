@@ -1,12 +1,22 @@
 .project {
     text-align: left;
+    color: white;
+    font-size: 25px;
 }
-.projectHeader {
-    text-align: center;
+.projectName {
+    text-align: left;
+    color: white;
 }
 .projectCard {
     margin-top: 3%;
-    text-align: center;
+    text-align: left;
     font-family: monospace;
     font-weight: bold;
+    margin-left: 45%;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.projects {
+    margin-top: 3%;
 }
