@@ -21,4 +21,6 @@
 
 .projectsContainer {
     margin-top: 5%;
+    font-family: monospace;
+    font-weight: bold;
 }

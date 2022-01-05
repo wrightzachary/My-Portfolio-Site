@@ -37,7 +37,7 @@ const Projects = () => {
                 </Row>
                 <Row className="projectTwo">
                     <div className="projectName">
-                        <h2>eCommerce <a href="https://github.com/wrightzachary/Ecommerce-Front-End"><FiGithub size={32} color='#AFBDD1'/></a></h2>
+                        <h2>eCommerce - Star Wars Themed Store Application <a href="https://github.com/wrightzachary/Ecommerce-Front-End"><FiGithub size={32} color='#AFBDD1'/></a></h2>
                         <hr></hr>
                     </div>
                     <Col sm={6}>
@@ -55,7 +55,7 @@ const Projects = () => {
                 </Row>
                 <Row className="projects">
                     <div className="projectName">
-                        <h2>Other Projects <a href="https://github.com/wrightzachary"><FiGithub size={32} color='#AFBDD1'/></a></h2>
+                        <h2>Other Projects I Have Completed  <a href="https://github.com/wrightzachary"><FiGithub size={32} color='#AFBDD1'/></a></h2>
                         <hr></hr>
                     </div>
                     <Col sm={6}>

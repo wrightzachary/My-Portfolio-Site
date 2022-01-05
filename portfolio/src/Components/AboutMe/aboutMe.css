@@ -1,15 +1,21 @@
 .about {
     text-align: left;
     font-size: 25px;
+    text-align: justify;
 }
 
 .aboutMe {
-    margin-top: 3%;
+    margin-top: 25%;
     font-family: monospace;
     font-weight: bold;
     color: white;
 }
 
 .photoOfMe {
-    border-radius: 15%;
+    border-radius: 5%;
+    margin-top: 2%;
+}
+
+.aboutMeHeading {
+    color: #BD871F;
 }
