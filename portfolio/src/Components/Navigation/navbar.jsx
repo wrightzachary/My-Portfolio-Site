@@ -9,8 +9,8 @@ import './navbar.css';
 const Navigation = () => {
     return ( 
         <React.Fragment>
-            <Container className='h-100'>
-            <Navbar expand="lg" variant="dark">
+            <Container className='h-100 myNav'>
+            <Navbar expand="lg" variant="dark" className='nav'>
             <Navbar.Brand >
                 <h1> <Typed 
                     strings={['Zachary the Developer']}

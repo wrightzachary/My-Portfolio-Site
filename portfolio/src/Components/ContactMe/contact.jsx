@@ -23,6 +23,7 @@ const Contact = () => {
     <Container className='contactContainer'>
       <Row>
       {/* <Col sm={5}></Col> */}
+      <Col sm={6}></Col>
       <Col sm={6}>
         <div className='contact'>
         <h1>.04 Contact Me</h1>
@@ -38,7 +39,6 @@ const Contact = () => {
           <Button style={{backgroundColor: "#BD871F", borderColor: "white"}} type="submit" value="Send" className="mt-2 mb-2 button" >Send Email</Button>
         </form>
         </Col>
-        <Col sm={6}></Col>
       </Row>
     </Container>
    
