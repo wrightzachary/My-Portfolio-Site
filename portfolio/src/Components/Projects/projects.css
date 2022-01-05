@@ -4,18 +4,20 @@
     font-size: 25px;
     padding-right: 5%;
     text-align: justify;
+    padding-top: 2%;
 }
 .projectName {
     text-align: left;
     color: #BD871F;
     margin-top: 1%;
+    padding-top: 3%;
 }
 .projectCard {
     margin-top: 3%;
     text-align: left;
     font-family: monospace;
     font-weight: bold;
-    color: white;
+    color: #BD871F;
     margin-bottom: 5%;
 }
 
@@ -26,3 +28,4 @@
     padding-top: 5%;
     padding-left: 5%;
 }
+

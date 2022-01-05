@@ -15,7 +15,8 @@ const Projects = () => {
             <Row>
                 <Col sm={6}>
                     <div className='projectCard'>
-                        <h1>.03 My Projects </h1><hr></hr>
+                        <h1>.03 My Projects </h1>
+                        <hr></hr>
                     </div>
                 </Col>
                 <Col sm={6}></Col>
