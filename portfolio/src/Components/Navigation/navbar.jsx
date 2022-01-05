@@ -13,7 +13,7 @@ const Navigation = () => {
             <Navbar expand="lg" variant="dark" className='nav'>
             <Navbar.Brand >
                 <h2> <Typed 
-                    strings={['Zachary the Developer']}
+                    strings={['zacharythedeveloper.com']}
                     typeSpeed={60}  
                     loop
                 /></h2>    
