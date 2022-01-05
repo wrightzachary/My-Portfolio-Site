@@ -4,8 +4,8 @@ import './contact.css';
 import {HiOutlinePhone, HiOutlineMail} from 'react-icons/hi';
 import { Container, Row, Col, Button, Nav} from 'react-bootstrap';
 import {FiLinkedin, FiGithub} from 'react-icons/fi';
-
-
+import { BsChevronDoubleUp } from 'react-icons/bs'
+ 
 const Contact = () => {
     const form = useRef();
 
@@ -24,11 +24,7 @@ const Contact = () => {
 
     <Container id='contact' className='contactContainer'>
       <Row>
-      {/* <Col sm={5}></Col> */}
-      
-      <Col sm={4}>
-
-      </Col>
+      <Col sm={4}></Col>
       <Col sm={4}>
         <div className='contact'>
         <h1>
@@ -46,8 +42,8 @@ const Contact = () => {
           <Button style={{backgroundColor: "#BD871F", borderColor: "white"}} type="submit" value="Send" className="mt-2 mb-2 button" >Send Email</Button>
           <br></br>
           <br></br>
-          <a href="https://www.linkedin.com/in/wrightzacharydev/" className='contactIcons'><FiLinkedin size={50} color='white'/></a> 
-          <a href="https://github.com/wrightzachary"><FiGithub size={50} color='white' /></a>
+          <a href="https://www.linkedin.com/in/wrightzacharydev/" className='contactIcons'><FiLinkedin size={50} color= '#408A83' /></a> 
+          <a href="https://github.com/wrightzachary"  ><FiGithub size={50} color= '#408A83' /></a>
         </form>
         </Col>
         <Col sm={4}></Col>

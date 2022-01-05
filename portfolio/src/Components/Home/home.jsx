@@ -8,7 +8,7 @@ import { VscFoldDown } from 'react-icons/vsc';
 const Home = () => {
     return ( 
         <React.Fragment>
-            <div id="home" className="home">
+            <div className="home">
             <Container>
             <Row>
                 <Col sm={8}>
