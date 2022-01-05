@@ -23,9 +23,16 @@ const Navigation = () => {
                 <Nav className="me-auto">
                 </Nav>
                 <Nav>
-                    <Nav.Link href="mailto:taylorzw96@gmail.com"><HiOutlineMail size={32} color='white'/></Nav.Link>
+                    <Nav.Link href="#aboutMe">.01 About Me</Nav.Link>
+                    <Nav.Link>  |   </Nav.Link>
+                    <Nav.Link href="#technologies">.02 Technologies</Nav.Link>
+                    <Nav.Link>  |   </Nav.Link>
+                    <Nav.Link href="#projects">.03 My Projects</Nav.Link>
+                    <Nav.Link>  |   </Nav.Link>
+                    <Nav.Link href="m#contact">.04 Contact Me</Nav.Link>
+                    {/* <Nav.Link href="mailto:taylorzw96@gmail.com"><HiOutlineMail size={32} color='white'/></Nav.Link>
                     <Nav.Link href="https://www.linkedin.com/in/wrightzacharydev/"><FiLinkedin size={32} color='white'/></Nav.Link>
-                    <Nav.Link href="https://github.com/wrightzachary"><FiGithub size={32} color='white' /></Nav.Link>
+                    <Nav.Link href="https://github.com/wrightzachary"><FiGithub size={32} color='white' /></Nav.Link> */}
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
