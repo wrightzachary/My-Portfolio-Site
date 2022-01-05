@@ -1,8 +1,14 @@
 .home {
-    text-align: left;
-    margin-top: 8%;
+    text-align: justify;
+    margin-top: 15%;
+    padding-bottom: 6%;
+    padding-top: 5%;
     font-family: monospace;
     font-weight: bold;
     color: white;
 
+}
+
+.myName, .buildSolutions{
+    color: #408A83;
 }

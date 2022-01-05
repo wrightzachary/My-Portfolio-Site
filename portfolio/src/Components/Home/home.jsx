@@ -12,9 +12,13 @@ const Home = () => {
             <Row>
                 <Col sm={8}>
                     <h1>Howdy, Y'all!</h1>
-                    <h5>My Name is</h5>
+                    <div className='myName'>
+                        <h4>My Name is</h4>
+                    </div>
                     <h1>Zachary Wright</h1>
-                    <h2>I build solutions to real world problems</h2>
+                    <div className='buildSolutions'>
+                        <h2>I build solutions for real world problems</h2>
+                    </div>
                     <h5>
                         I am a Software Developer that is looking for his first role in the tech industry. 
                         Currently I am focused on growing my knowledge while I find my first developement 
