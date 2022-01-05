@@ -36,8 +36,6 @@ const Technologies = () => {
                             <AiOutlineAntDesign size={15} /> Styled Components
                             
                         </p>
-                    <a href='#projects'><VscFoldDown className='downIcon' size={50} /></a>
-
                     </div>
                 </Row>
             </Container>
