@@ -2,11 +2,13 @@ import React from 'react';
 import './aboutMe.css';
 import { Col, Container, Row, Card } from "react-bootstrap";
 import photoofme from '../Images/photoofme.jpg';
+import { VscFoldDown } from 'react-icons/vsc';
+
 
 const AboutMe = () => {
     return ( 
         <React.Fragment>
-            <Container>
+            <Container id='aboutMe'>
             <div className='aboutMe'>
             <Row>
                 {/* <Col sm={1}></Col> */}
@@ -29,6 +31,7 @@ const AboutMe = () => {
                                 graduate next year in 2023! Follow me on my journey of getting my first developer job through 
                                 GitHub and LinkedIn.
                             </p>
+                    <a href='#technologies'><VscFoldDown className='downIcon' size={50} /></a>
                             </div>
                 </Col>
                 <Col sm={1}></Col>

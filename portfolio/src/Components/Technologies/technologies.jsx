@@ -2,12 +2,13 @@ import React from 'react';
 import './technologies.css';
 import { Col, Container, Row, } from "react-bootstrap";
 import {AiOutlineAntDesign} from 'react-icons/ai';
+import { VscFoldDown } from 'react-icons/vsc';
 
 
 const Technologies = () => {
     return ( 
         <React.Fragment>
-            <Container className='technologyComponent'>
+            <Container id='technologies' className='technologyComponent'>
             <Row>
                 <Col sm={6}>
                     <div className='technologyHeading'>
@@ -35,6 +36,8 @@ const Technologies = () => {
                             <AiOutlineAntDesign size={15} /> Styled Components
                             
                         </p>
+                    <a href='#projects'><VscFoldDown className='downIcon' size={50} /></a>
+
                     </div>
                 </Row>
             </Container>

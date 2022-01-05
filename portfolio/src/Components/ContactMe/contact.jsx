@@ -20,7 +20,7 @@ const Contact = () => {
 
   return (
 
-    <Container className='contactContainer'>
+    <Container id='contact' className='contactContainer'>
       <Row>
       {/* <Col sm={5}></Col> */}
       <Col sm={6}></Col>

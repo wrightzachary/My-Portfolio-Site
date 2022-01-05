@@ -5,11 +5,13 @@ import ecommerce from '../Images/ecommerce.png';
 import './projects.css';
 import {FiGithub} from 'react-icons/fi';
 import GitHub from '../Images/GitHub.PNG';
+import { VscFoldDown } from 'react-icons/vsc';
+
 
 const Projects = () => {
     return ( 
         <React.Fragment>
-            <Container className='projectsContainer'>
+            <Container id='projects' className='projectsContainer'>
             <Row>
                 <Col sm={6}>
                     <div className='projectCard'>
@@ -65,6 +67,7 @@ const Projects = () => {
                             and some are full stack applications. Please view my GitHub to see what I have completed. I am constantly working on new projects and maintenance of older
                             projects. 
                         </p>
+                        <a href='#contact'><VscFoldDown className='downIcon' size={50} /></a>
                         </div>
                     </Col>
                     <Col sm={6}>

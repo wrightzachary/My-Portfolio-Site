@@ -3,6 +3,7 @@ import { Col, Container, Row, Card } from "react-bootstrap";
 import './home.css';
 import bitmoji1 from '../Images/bitmoji1.png';
 import Typed from 'react-typed';
+import { VscFoldDown } from 'react-icons/vsc';
 
 const Home = () => {
     return ( 
@@ -22,8 +23,9 @@ const Home = () => {
                     <h5>
                         I am a Software Developer that is looking for his first role in the tech industry. 
                         Currently I am focused on growing my knowledge while I find my first developement 
-                        role, but I am  also a co-host for the podcast codeFellowship().
                     </h5>
+                    <a href='#aboutMe'><VscFoldDown className='downIcon' size={50} /></a>
+
                 </Col>
                 {/* <Col sm={1}></Col> */}
                 {/* <Col sm={4}>
