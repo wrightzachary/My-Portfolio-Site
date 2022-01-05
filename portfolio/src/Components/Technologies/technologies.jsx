@@ -7,38 +7,35 @@ import {AiOutlineAntDesign} from 'react-icons/ai';
 const Technologies = () => {
     return ( 
         <React.Fragment>
+            <Container className='technologyComponent'>
             <Row>
-            <Col sm={6}>
-                <div className='technologyHeading'>
-                    <h1>.02 Technologies</h1>
-                    <hr></hr>
-                </div>
+                <Col sm={6}>
+                    <div className='technologyHeading'>
+                        <h1>.02 Technologies</h1>
+                        <hr></hr>
+                    </div>
                 </Col>
-            <Col sm={1}></Col>
-            <Col sm={5}></Col>
+                <Col sm={6}></Col>
             </Row>
             <div className='technologies'>
-            <Container>
-             
             <Row>
                 <Col sm={4}>
                 <Container fluid>
                 <Row className="d-flex justify-content-center">
-                            <div className="technologyHeader">
-                           
-                               <h2>Front End Development </h2> 
-                            </div>
-                            <hr></hr>
-                            <div className="technology">
-                            <p>
-                                <AiOutlineAntDesign size={15} /> HTML5<br></br>
-                                <AiOutlineAntDesign size={15} /> CSS<br></br>
-                                <AiOutlineAntDesign size={15} /> React.js<br></br>
-                                <AiOutlineAntDesign size={15} /> Material-UI<br></br>
-                                <AiOutlineAntDesign size={15} /> Styled Components
-                               
-                            </p>
-                            </div>
+                    <div className="technologyHeader">
+                        <h2>Front End Development </h2> 
+                        <hr></hr>
+                    </div>
+                    <div className="technology">
+                        <p>
+                            <AiOutlineAntDesign size={15} /> HTML5<br></br>
+                            <AiOutlineAntDesign size={15} /> CSS<br></br>
+                            <AiOutlineAntDesign size={15} /> React.js<br></br>
+                            <AiOutlineAntDesign size={15} /> Material-UI<br></br>
+                            <AiOutlineAntDesign size={15} /> Styled Components
+                            
+                        </p>
+                    </div>
                 </Row>
             </Container>
             </Col>
@@ -47,11 +44,11 @@ const Technologies = () => {
             <Row className="d-flex justify-content-center">
                     <div className="technologyHeader">
                         <h2>Back End Development</h2>
+                        <hr></hr>
                     </div>
-                    <hr></hr>
                     <div className="technology">
                     <p>
-                    <AiOutlineAntDesign size={15} /> ASP.NET Core Entity Framework<br></br>
+                        <AiOutlineAntDesign size={15} /> ASP.NET Core <br></br>
                         <AiOutlineAntDesign size={15} /> Django REST Framework<br></br>
                         <AiOutlineAntDesign size={15} /> MySQL<br></br>
                         <AiOutlineAntDesign size={15} /> MSSQL<br></br>
@@ -66,8 +63,8 @@ const Technologies = () => {
                 <Row className="d-flex justify-content-center">
                             <div className="technologyHeader">
                                 <h2>Source Control and Technologies</h2>
+                                <hr></hr>
                             </div>
-                            <hr></hr>
                             <div className="technology">
                             <p>
                                 <AiOutlineAntDesign size={15} /> GitHub<br></br>
@@ -86,8 +83,8 @@ const Technologies = () => {
             </Container>
             </Col>
             </Row>
-            </Container>
             </div>
+            </Container>
         </React.Fragment>
      );
 }

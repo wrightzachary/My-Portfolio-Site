@@ -4,25 +4,29 @@
 
 .technologyHeader {
     text-align: left;
-    margin-top: 2%;
+    margin-top: 5%;
     font-family: monospace;
     font-weight: bold;
+    color: #BD871F;
 }
 
 .technologyHeading{
     text-align: left;
     font-family: monospace;
     font-weight: bold;
-    padding-top: 15%;
-    color: white;
-    margin-left: 45%;
+    color: #BD871F;
+    margin-top: 5%;
 }
 
 .technologies {
-    margin-top: 5%;
+    margin-top: 1%;
     text-align: center;
     font-family: monospace;
     font-weight: bold;
     color: white;
     font-size: 25px;
+}
+
+.technologyComponent {
+    margin-top: 5%;
 }
