@@ -2,7 +2,9 @@ import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
 import {HiOutlinePhone, HiOutlineMail} from 'react-icons/hi';
-import { Container, Row, Col, Button} from 'react-bootstrap';
+import { Container, Row, Col, Button, Nav} from 'react-bootstrap';
+import {FiLinkedin, FiGithub} from 'react-icons/fi';
+
 
 const Contact = () => {
     const form = useRef();
@@ -23,10 +25,15 @@ const Contact = () => {
     <Container id='contact' className='contactContainer'>
       <Row>
       {/* <Col sm={5}></Col> */}
-      <Col sm={6}></Col>
-      <Col sm={6}>
+      
+      <Col sm={4}>
+
+      </Col>
+      <Col sm={4}>
         <div className='contact'>
-        <h1>.04 Contact Me</h1>
+        <h1>
+          .04 Contact Me  
+        </h1>
         <hr></hr>
       </div>
         <form ref={form} onSubmit={sendEmail}>
@@ -37,8 +44,13 @@ const Contact = () => {
           <textarea type="email" name="message" placeholder='MESSAGE' className="mt-2 mb-2 message"/>
           <br></br>
           <Button style={{backgroundColor: "#BD871F", borderColor: "white"}} type="submit" value="Send" className="mt-2 mb-2 button" >Send Email</Button>
+          <br></br>
+          <br></br>
+          <a href="https://www.linkedin.com/in/wrightzacharydev/" className='contactIcons'><FiLinkedin size={50} color='white'/></a> 
+          <a href="https://github.com/wrightzachary"><FiGithub size={50} color='white' /></a>
         </form>
         </Col>
+        <Col sm={4}></Col>
       </Row>
     </Container>
    

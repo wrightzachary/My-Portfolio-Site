@@ -28,3 +28,9 @@
 .button {
     width: 100%;
 }
+
+.contactIcons {
+    padding-right: 5%;
+    padding-left: 35%;
+    padding-top: 5%;
+}
