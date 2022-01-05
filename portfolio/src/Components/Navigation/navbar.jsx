@@ -12,11 +12,11 @@ const Navigation = () => {
             <Container className='h-100 myNav'>
             <Navbar expand="lg" variant="dark" className='nav'>
             <Navbar.Brand >
-                <h1> <Typed 
+                <h2> <Typed 
                     strings={['Zachary the Developer']}
                     typeSpeed={60}  
                     loop
-                /></h1>    
+                /></h2>    
             </Navbar.Brand> 
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
