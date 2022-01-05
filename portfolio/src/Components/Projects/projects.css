@@ -2,21 +2,23 @@
     text-align: left;
     color: white;
     font-size: 25px;
+    padding-right: 5%;
+    text-align: justify;
 }
 .projectName {
     text-align: left;
-    color: white;
+    color: #BD871F;
+    margin-top: 1%;
 }
 .projectCard {
     margin-top: 3%;
     text-align: left;
     font-family: monospace;
     font-weight: bold;
-    margin-left: 45%;
     color: white;
     margin-bottom: 5%;
 }
 
-.projects {
-    margin-top: 3%;
+.projectsContainer {
+    margin-top: 5%;
 }
