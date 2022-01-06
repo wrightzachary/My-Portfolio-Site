@@ -3,8 +3,12 @@
 }
 
 h1, h2 {
-    color: #BD871F;
+    color: #408A83;
     ;
+}
+
+h3, p {
+    color: #BD871F;
 }
 
 img {

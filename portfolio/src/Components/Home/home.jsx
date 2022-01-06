@@ -12,18 +12,14 @@ const Home = () => {
             <Container>
             <Row>
                 <Col sm={8}>
-                    <h1>Howdy, Y'all!</h1>
-                    <div className='myName'>
-                        <h4>My Name is</h4>
-                    </div>
-                    <h1>Zachary Wright</h1>
+                    <h1>Howdy Y'all, I am Zachary Wright</h1>
                     <div className='buildSolutions'>
                         <h2>I build solutions for real world problems</h2>
                     </div>
-                    <h5>
+                    <h4>
                         I am a Software Developer that is looking for his first role in the tech industry. 
                         Currently I am focused on growing my knowledge while I find my first developer role.
-                    </h5>
+                    </h4>
                     <a href='#aboutMe'><VscFoldDown className='downIcon' size={50} /></a>
 
                 </Col>

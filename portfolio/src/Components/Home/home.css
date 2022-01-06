@@ -5,12 +5,16 @@
     padding-top: 3%;
     font-family: monospace;
     font-weight: bold;
-    color: white;
+    color: #BD871F;
     
 
 }
 
-.myName, .buildSolutions{
+.myName {
+    color: #BD871F;
+}
+
+.buildSolutions{
     color: #408A83;
 }
 
