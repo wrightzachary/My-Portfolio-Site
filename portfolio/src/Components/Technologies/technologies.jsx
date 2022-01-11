@@ -31,6 +31,7 @@ const Technologies = () => {
                         <p>
                             <AiOutlineAntDesign size={15} /> HTML5<br></br>
                             <AiOutlineAntDesign size={15} /> CSS<br></br>
+                            <AiOutlineAntDesign size={15} /> JavaScript<br></br>
                             <AiOutlineAntDesign size={15} /> React.js<br></br>
                             <AiOutlineAntDesign size={15} /> Material-UI<br></br>
                             <AiOutlineAntDesign size={15} /> Styled Components
@@ -50,6 +51,7 @@ const Technologies = () => {
                     <div className="technology">
                     <p>
                         <AiOutlineAntDesign size={15} /> ASP.NET Core <br></br>
+                        <AiOutlineAntDesign size={15} /> Pyhton <br></br>
                         <AiOutlineAntDesign size={15} /> Django REST Framework<br></br>
                         <AiOutlineAntDesign size={15} /> MySQL<br></br>
                         <AiOutlineAntDesign size={15} /> MSSQL<br></br>
