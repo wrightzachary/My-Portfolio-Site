@@ -14,8 +14,6 @@
     color: #BD871F;
     margin-top: 1%;
     padding-top: 4%;
-    margin-left: 2%;
-    margin-right: 2%;
     padding-bottom: 2%;
 }
 .projectCard {
@@ -34,3 +32,7 @@
     padding-left: 5%;
 }
 
+.projectPhoto {
+    padding-left: 5%;
+    padding-top: 8%;
+}

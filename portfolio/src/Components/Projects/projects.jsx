@@ -35,7 +35,7 @@ const Projects = () => {
                     </div>
                 </Col>
                 <Col sm={6}>
-                <div className="project">
+                <div className="projectPhoto">
                     <img src={igy6} alt="IGY6 Project" width="90%" />
                     </div>
                 </Col>
@@ -55,7 +55,7 @@ const Projects = () => {
                         </div>
                     </Col>
                     <Col sm={6}>
-                    <div className="project">
+                    <div className="projectPhoto">
                         <img src={ecommerce} alt="eCommerce Project" width="90%"  />
                     </div>
                     </Col>
@@ -75,7 +75,7 @@ const Projects = () => {
                         </div>
                     </Col>
                     <Col sm={6}>
-                    <div className="project">
+                    <div className="projectPhoto">
                         <img src={GitHub} alt="GitHub Overview" width="90%"  />
                     </div>
                     </Col>

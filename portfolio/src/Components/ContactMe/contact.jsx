@@ -46,8 +46,9 @@ const Contact = () => {
           <br></br>
           <a href="https://www.linkedin.com/in/wrightzacharydev/" className='contactIcons'><FiLinkedin size={50} color= '#408A83' /></a> 
           <a href="https://github.com/wrightzachary"  ><FiGithub size={50} color= '#408A83' /></a>
+
         </form>
-        <ScrollToTop smooth />
+          <ScrollToTop smooth />
         </Col>
         <Col sm={4}></Col>
       </Row>

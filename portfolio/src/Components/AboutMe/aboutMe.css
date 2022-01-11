@@ -15,9 +15,10 @@
 }
 
 .photoOfMe {
-    border-radius: 5%;
     margin-top: 2%;
     padding-bottom: 3%;
+    padding-left: 5%;
+    padding-top: 5%;
 }
 
 .aboutMeHeading {

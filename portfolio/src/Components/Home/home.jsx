@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Container, Row, Card } from "react-bootstrap";
 import './home.css';
-import bitmoji1 from '../Images/bitmoji1.png';
 import Typed from 'react-typed';
 import { VscFoldDown } from 'react-icons/vsc';
 
