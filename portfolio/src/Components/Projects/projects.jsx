@@ -5,7 +5,6 @@ import ecommerce from '../Images/ecommerce.png';
 import './projects.css';
 import {FiGithub} from 'react-icons/fi';
 import GitHub from '../Images/GitHub.PNG';
-import { VscFoldDown } from 'react-icons/vsc';
 
 
 const Projects = () => {

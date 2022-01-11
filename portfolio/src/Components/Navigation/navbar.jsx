@@ -1,7 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
-import {HiOutlinePhone, HiOutlineMail} from 'react-icons/hi';
-import {FiLinkedin, FiGithub} from 'react-icons/fi';
+import { Navbar, Nav, Container} from 'react-bootstrap';
 import Typed from 'react-typed';
 import './navbar.css';
 

@@ -1,8 +1,7 @@
 import React from 'react';
 import './aboutMe.css';
-import { Col, Container, Row, Card } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import photoofme from '../Images/photoofme.jpg';
-import { VscFoldDown } from 'react-icons/vsc';
 
 
 const AboutMe = () => {

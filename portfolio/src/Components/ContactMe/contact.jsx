@@ -1,10 +1,8 @@
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
-import {HiOutlinePhone, HiOutlineMail} from 'react-icons/hi';
-import { Container, Row, Col, Button, Nav} from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import {FiLinkedin, FiGithub} from 'react-icons/fi';
-import { BsChevronDoubleUp } from 'react-icons/bs'
  
 const Contact = () => {
     const form = useRef();

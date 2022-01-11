@@ -2,7 +2,6 @@ import React from 'react';
 import './technologies.css';
 import { Col, Container, Row, } from "react-bootstrap";
 import {AiOutlineAntDesign} from 'react-icons/ai';
-import { VscFoldDown } from 'react-icons/vsc';
 
 
 const Technologies = () => {
