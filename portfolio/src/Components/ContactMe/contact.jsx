@@ -5,6 +5,7 @@ import {HiOutlinePhone, HiOutlineMail} from 'react-icons/hi';
 import { Container, Row, Col, Button, Nav} from 'react-bootstrap';
 import {FiLinkedin, FiGithub} from 'react-icons/fi';
 import { BsChevronDoubleUp } from 'react-icons/bs'
+import ScrollToTop from "react-scroll-to-top";
  
 const Contact = () => {
     const form = useRef();
@@ -46,6 +47,7 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/wrightzacharydev/" className='contactIcons'><FiLinkedin size={50} color= '#408A83' /></a> 
           <a href="https://github.com/wrightzachary"  ><FiGithub size={50} color= '#408A83' /></a>
         </form>
+        <ScrollToTop smooth />
         </Col>
         <Col sm={4}></Col>
       </Row>
