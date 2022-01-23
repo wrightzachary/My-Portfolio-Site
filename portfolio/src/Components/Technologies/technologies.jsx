@@ -50,7 +50,7 @@ const Technologies = () => {
                     <div className="technology">
                     <p>
                         <AiOutlineAntDesign size={15} /> ASP.NET Core <br></br>
-                        <AiOutlineAntDesign size={15} /> Pyhton <br></br>
+                        <AiOutlineAntDesign size={15} /> Python <br></br>
                         <AiOutlineAntDesign size={15} /> Django REST Framework<br></br>
                         <AiOutlineAntDesign size={15} /> MySQL<br></br>
                         <AiOutlineAntDesign size={15} /> MSSQL<br></br>
