@@ -3,7 +3,7 @@
   </a>
 
   <h1 align="center">Zachary Wright's Portfolio</h1>
-  <h2 align="center"> zacharythedeveloper.com</h2>
+  <h2 align="center"><a href>zacharythedeveloper.com</a></h2>
 
   <p align="center">
     My personal portfolio!
