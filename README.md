@@ -37,8 +37,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![portfolio](https://user-images.githubusercontent.com/80498861/135204592-681715a2-5c8f-47c8-8fca-7ed4d05c6e9f.PNG)
-
 
 <p>
  This is my personal portfolio. Please feel free to reach out to me!
